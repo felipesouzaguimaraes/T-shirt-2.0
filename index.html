@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto-T-Shirts-2.0</title>
+  <link rel="shortcut icon" href="imagens/ggtexto.ico" type="image/ico">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- Cabeçalho com seu Logo e Menu -->
+  <header>
+    <div class="topo-container">
+      <div class="logo-area">
+        <img src="imagens/gg10.png" alt="Logo GG10 T-Shirts" class="logo">
+      </div>
+
+      <nav class="menu">
+        <a href="https://esbrasil.com.br/estilo-das-t-shirts/" target="_blank">Feminino</a>
+        <a href="https://audaces.com/pt-br/blog/moda-masculina" target="_blank">Masculino</a>
+        <a href="https://ecolover.life/blog/moda-infantil-sostenible-ecologica-espanola/" target="_blank">Infantil</a>
+        <a href="https://seer.ufrgs.br/index.php/read/article/view/131284" target="_blank">Marcas</a>
+        <a href="https://es.fashionjobs.com/provincia/Barcelona,4334.html" target="_blank">Ofertas</a>
+      </nav>
+
+      <div class="redes-sociais">
+        <a href="https://www.instagram.com/felipe.souzaguimaraes?utm_source=qr&bqrl=MXBpc3lsdHk2NTU1MA==" target="_blank"><abbr title="linkedin"><img src="imagens/instagram.png" alt="Instagram"></a>
+        <a href="https://www.linkedin.com/in/felipe-souza-guimaraes-5324973a6/" target="_blank"><abbr title="linkedin"><img src="imagens/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://github.com/felipesouzaguimaraes" target="_blank"><abbr title="github"><img src="imagens/github.png" alt="Github"></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <!-- Seção Principal: Vitrine + Carrinho -->
+    <div class="loja-grid" id="vitrine">
+      
+      <!-- Vitrine com suas 8 imagens -->
+      <section class="vitrine">
+        
+       <!-- Produto 1 -->
+        <div class="card">
+          <img src="imagens/camisa-barco.jpeg" alt="T-Shirt Modelo 01">
+          
+          <p class="preco-antigo">De <s>R$ 59,90</s></p>
+          <p class="preco-atual">Por <strong>R$ 54,90</strong></p>
+          <div class="controles">
+            <select id="tam-1"><option value="P">P</option><option value="M" selected>M</option><option value="G">G</option><option value="GG">GG</option></select>
+            <input type="number" id="qtd-1" value="1" min="1" max="10">
+          </div>
+          <button onclick="adicionarAoCarrinho('T-Shirt Modelo 01', 54.90, 'tam-1', 'qtd-1')">Adicionar à Sacola</button>
+        </div>
+
+          <!-- Produto 2 -->
+        <div class="card">
+          <img src="imagens/camisa-cafe.jpeg" alt="T-Shirt Modelo 02">
+          
+          <p class="preco-antigo">De <s>R$ 59,90</s></p>
+          <p class="preco-atual">Por <strong>R$ 54,90</strong></p>
+          <div class="controles">
+            <select id="tam-2"><option value="P">P</option><option value="M" selected>M</option><option value="G">G</option><option value="GG">GG</option></select>
+            <input type="number" id="qtd-2" value="1" min="1" max="10">
+          </div>
+          <button onclick="adicionarAoCarrinho('T-Shirt Modelo 02', 54.90, 'tam-2', 'qtd-2')">Adicionar à Sacola</button>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="card">
+          <img src="imagens/camisa-casa.jpeg" alt="T-Shirt Modelo 03">
+          
+          <p class="preco-antigo">De <s>R$ 59,90</s></p>
+          <p class="preco-atual">Por <strong>R$ 54,90</strong></p>
+          <div class="controles">
+            <select id="tam-3"><option value="P">P</option><option value="M" selected>M</option><option value="G">G</option><option value="GG">GG</option></select>
+            <input type="number" id="qtd-3" value="1" min="1" max="10">
+          </div>
+          <button onclick="adicionarAoCarrinho('T-Shirt Modelo 03', 54.90, 'tam-3', 'qtd-3')">Adicionar à Sacola</button>
+        </div>
+
+        <!-- Produto 4 -->
+        <div class="card">
+          <img src="imagens/camisa-flor.jpeg" alt="T-Shirt Modelo 04">
+          
+          <p class="preco-antigo">De <s>R$ 59,90</s></p>
+          <p class="preco-atual">Por <strong>R$ 54,90</strong></p>
+          <div class="controles">
+            <select id="tam-4"><option value="P">P</option><option value="M" selected>M</option><option value="G">G</option><option value="GG">GG</option></select>
+            <input type="number" id="qtd-4" value="1" min="1" max="10">
+          </div>
+          <button onclick="adicionarAoCarrinho('T-Shirt Modelo 04', 54.90, 'tam-4', 'qtd-4')">Adicionar à Sacola</button>
+        </div>
+
+        <!-- Produto 5 -->
+        <div class="card">
+          <img src="imagens/camisa-jesus.jpeg" alt="T-Shirt Modelo 05">
+          
+          <p class="preco-antigo">De <s>R$ 59,90</s></p>
+          <p class="preco-atual">Por <strong>R$ 54,90</strong></p>
+          <div class="controles">
+            <select id="tam-5"><option value="P">P</option><option value="M" selected>M</option><option value="G">G</option><option value="GG">GG</option></select>
+            <input type="number" id="qtd-5" value="1" min="1" max="10">
+          </div>
+          <button onclick="adicionarAoCarrinho('T-Shirt Modelo 05', 54.90, 'tam-5', 'qtd-5')">Adicionar à Sacola</button>
+        </div>
+
+        <!-- Produto 6 -->
+        <div class="card">
+          <img src="imagens/camisa-jesus2.jpeg" alt="T-Shirt Modelo 06">
+          
+          <p class="preco-antigo">De <s>R$ 59,90</s></p>
+          <p class="preco-atual">Por <strong>R$ 54,90</strong></p>
+          <div class="controles">
+            <select id="tam-6"><option value="P">P</option><option value="M" selected>M</option><option value="G">G</option><option value="GG">GG</option></select>
+            <input type="number" id="qtd-6" value="1" min="1" max="10">
+          </div>
+          <button onclick="adicionarAoCarrinho('T-Shirt Modelo 06', 54.90, 'tam-6', 'qtd-6')">Adicionar à Sacola</button>
+        </div>
+
+        <!-- Produto 7 -->
+        <div class="card">
+          <img src="imagens/camisa-rosa-costas.jpeg" alt="T-Shirt Modelo 07">
+          
+          <p class="preco-antigo">De <s>R$ 59,90</s></p>
+          <p class="preco-atual">Por <strong>R$ 54,90</strong></p>
+          <div class="controles">
+            <select id="tam-7"><option value="P">P</option><option value="M" selected>M</option><option value="G">G</option><option value="GG">GG</option></select>
+            <input type="number" id="qtd-7" value="1" min="1" max="10">
+          </div>
+          <button onclick="adicionarAoCarrinho('T-Shirt Modelo 07', 54.90, 'tam-7', 'qtd-7')">Adicionar à Sacola</button>
+        </div>
+
+        <!-- Produto 8 -->
+        <div class="card">
+          <img src="imagens/camisa-rosa.jpeg" alt="T-Shirt Modelo 08">
+          
+          <p class="preco-antigo">De <s>R$ 59,90</s></p>
+          <p class="preco-atual">Por <strong>R$ 54,90</strong></p>
+          <div class="controles">
+            <select id="tam-8"><option value="P">P</option><option value="M" selected>M</option><option value="G">G</option><option value="GG">GG</option></select>
+            <input type="number" id="qtd-8" value="1" min="1" max="10">
+          </div>
+          <button onclick="adicionarAoCarrinho('T-Shirt Modelo 08', 54.90, 'tam-8', 'qtd-8')">Adicionar à Sacola</button>
+        </div>
+
+      </section>
+
+      <!-- Carrinho Lateral Fixo -->
+      <aside class="carrinho">
+        <h2>Sua Sacola</h2>
+        <ul id="lista-carrinho">
+          <li class="vazio">Nenhum modelo selecionado ainda.</li>
+        </ul>
+        <div class="total">
+          Total Estimado: <strong id="valor-total">R$ 0,00</strong>
+        </div>
+        <p class="aviso-legal">* Consulta de disponibilidade. Pagamento e entrega combinados direto no WhatsApp.</p>
+        <button id="btn-whatsapp" onclick="finalizarWhatsApp()" disabled>
+          Pedir pelo WhatsApp
+        </button>
+      </aside>
+
+    </div>
+
+    <!-- Seus Textos Informativos Preservados -->
+    <section class="conteudo-informativo" id="sobre">
+      <div class="bloco-texto">
+        <h2>Sobre T-shirt!</h2>
+        <p>T-shirt (ou camiseta) é uma peça de roupa básica e versátil, geralmente de malha de algodão, com mangas curtas e gola redonda, que se popularizou como roupa casual e de comunicação, usada para expressar ideias, marcas ou grupos, sendo um item essencial no guarda-roupa moderno.</p>
+      </div>
+
+      <div class="bloco-texto">
+        <h2>Características Principais:</h2>
+        <p><strong>Formato:</strong> Recebe o nome "T" por seu formato quando estendida, com um corte reto. <strong>Material:</strong> Tradicionalmente de malha de algodão, mas hoje encontrada em diversos tecidos. <strong>Estilo:</strong> Pode ser lisa, estampada (com frases, imagens, logos) ou ter cortes variados, adaptando-se a diversos looks.</p>
+      </div>
+
+      <div class="bloco-texto">
+        <h2>História e Evolução:</h2>
+        <p><strong>Origem:</strong> Surgiu no final do século XIX/início do século XX, usada como roupa íntima por soldados. <strong>Popularização:</strong> Ganhou destaque nos anos 50 com o cinema e nos anos 60 com movimentos de contracultura (hippies, punks), tornando-se um meio de expressão. <strong>Versatilidade:</strong> Evoluiu de roupa íntima para peça-chave casual e fashion, sendo usada para protestos, marketing e moda.</p>
+      </div>
+
+      <div class="bloco-texto">
+        <h2>Uso Atual e Diferenças:</h2>
+        <p>É uma peça-chave para looks casuais, despojados ou até mais elaborados. <strong>Baby Look:</strong> É uma versão mais ajustada e acinturada da t-shirt, valorizando a silhueta feminina. <strong>Camisa:</strong> Tem cortes mais estruturados, botões e tecidos mais nobres, sendo mais formal que a t-shirt.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Seu Rodapé Original -->
+  <footer>
+    <h2>Qualidade que você pode confiar!</h2>
+    <h3>Para cada dia, um novo look!</h3>
+    <p class="creditos">Site Criado por Felipe Souza Guimarães, para fins de estudo.</p>
+  </footer>
+
+</body>
+</html>

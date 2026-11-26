@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #141414;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 3px solid #eab308; /* Destaque dourado/amarelo */
+}
+
+.topo-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 120px;
+  width: auto;
+  border-radius: 6px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.menu a:hover {
+  color: #eab308;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 10px;
+}
+
+.redes-sociais img {
+  width: 26px;
+  height: 26px;
+  transition: transform 0.2s;
+}
+
+.redes-sociais img:hover {
+  transform: scale(1.1);
+}
+
+/* Layout Principal */
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.loja-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* Vitrine de Camisetas */
+.vitrine {
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+}
+
+.preco-antigo {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.preco-atual {
+  font-size: 1.15rem;
+  color: #16a34a;
+  margin-bottom: 0.8rem;
+}
+
+.controles {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.controles select, .controles input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60px;
+  text-align: center;
+}
+
+button {
+  background-color: #141414;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+/* Carrinho */
+.carrinho {
+  flex: 1;
+  min-width: 280px;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 20px;
+}
+
+.carrinho h2 {
+  border-bottom: 2px solid #eab308;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#lista-carrinho {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+#lista-carrinho li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+}
+
+.btn-remover {
+  background: #dc2626;
+  width: auto;
+  padding: 2px 7px;
+  font-size: 0.75rem;
+  margin-left: 8px;
+}
+
+.total {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.aviso-legal {
+  font-size: 0.75rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+#btn-whatsapp {
+  background-color: #25D366;
+  font-size: 1rem;
+}
+
+#btn-whatsapp:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Textos Informativos */
+.conteudo-informativo {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.bloco-texto {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.bloco-texto h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #141414;
+  border-left: 4px solid #eab308;
+  padding-left: 10px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #141414;
+  color: #fff;
+  text-align: center;
+  padding: 2.5rem 1rem;
+  margin-top: 4rem;
+}
+
+footer h3 {
+  color: #eab308;
+  margin: 0.5rem 0 1.5rem;
+  font-weight: normal;
+}
+
+.creditos {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
