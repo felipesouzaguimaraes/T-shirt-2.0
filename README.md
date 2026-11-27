@@ -1,4 +1,4 @@
-# 👕 GG10 T-Shirts — Catálogo Interativo & Pedido via WhatsApp
+# 👕 GG T-Shirts — Catálogo Interativo & Pedido via WhatsApp
 
 ![Status do Projeto](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -63,6 +63,6 @@ O usuário navega pelos modelos, escolhe numeração e quantidade, acompanha o c
 
 Desenvolvido por **Felipe Souza Guimarães** — *Projeto criado para fins de estudo e portfólio.*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](github.com/felipesouzaguimaraes)
+[![LinkedIn](https://www.linkedin.com/in/felipe-souza-guimaraes-5324973a6/)](www.linkedin.com/)
+[![GitHub](https://github.com/felipesouzaguimaraes)](github.com/felipesouzaguimaraes)
 
