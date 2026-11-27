@@ -63,6 +63,7 @@ O usuário navega pelos modelos, escolhe numeração e quantidade, acompanha o c
 
 Desenvolvido por **Felipe Souza Guimarães** — *Projeto criado para fins de estudo e portfólio.*
 
-[![LinkedIn](https://www.linkedin.com/in/felipe-souza-guimaraes-5324973a6/)](www.linkedin.com/)
-[![GitHub](https://github.com/felipesouzaguimaraes)](github.com/felipesouzaguimaraes)
+[![LinkedIn](img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-souza-guimaraes-5324973a6/)
+[![GitHub](img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]([github.com/felipesouzaguimaraes](https://github.com/felipesouzaguimaraes)
+
 
